@@ -2,13 +2,15 @@
 <html>
 
 <head>
-  <title>Matt Decuir | experimatt.com </title>
+  <title>Matt Decuir | experimatt.com</title>
 
   <!-- import tailwind styles directly into the HTML  -->
   <link href='https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css' rel='stylesheet'>
 
   <!-- additional styles -->
   <link rel='stylesheet' href='./styles/main.css'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -32,13 +34,12 @@
     </div>
   </section>
 
-  <section id='about' class='w-full h-56 flex items-center justify-center flex-col p-8 text-black text-3xl'>
-    <div class='pb-4'>
+  <section id='about'
+    class='w-full h-56 flex items-center justify-center flex-col p-8 text-black text-2xl md:text-3xl'>
+    <div class='text-semibold leading-normal pb-4'>
       I&#39;m a software engineer who tends to solve community problems.
     </div>
-    <div class='text-2xl'>
-      💻 🍕 🚲 ⚡️ 🚌
-    </div>
+    <div>💻 🍕 🚲 ⚡️ 🚌</div>
   </section>
 
   <section id='specialties' class='w-full h-64 bg-blue-500 flex justify-center p-8'>
@@ -76,20 +77,20 @@
         class='font-semibold hover:text-blue-600'>Break The Bubble</a>.
     </div>
 
-    <div class='m:w-3/4 s:w-full'>
+    <div class='l:w-3/4 m:w-full'>
       <div class='grid md:grid-cols-2 sm:grid-cols-1 gap-8'>
         <a href='https://mplsjrdevs.com' target='_blank' rel='noopener noreferrer' class='hover:opacity-75'>
-          <img src='./images/mpls-jr-devs.png' alt='Mpls Jr Devs' class='max-w-md' />
+          <img src='./images/mpls-jr-devs.png' alt='Mpls Jr Devs' class='sm:max-w-full lg:max-w-md' />
         </a>
         <a href='https://omgtransit.com' target='_blank' rel='noopener noreferrer' class='hover:opacity-75'>
-          <img src='./images/omg-transit.jpg' alt='OMG Transit' class='max-w-md' />
+          <img src='./images/omg-transit.jpg' alt='OMG Transit' class='sm:max-w-full lg:max-w-md' />
         </a>
         <a href='http://breakthebubble.com' target='_blank' rel='noopener noreferrer' class='hover:opacity-75'>
-          <img src='./images/break-the-bubble.png' alt='Break The Bubble' class='max-w-md' />
+          <img src='./images/break-the-bubble.png' alt='Break The Bubble' class='sm:max-w-full lg:max-w-md' />
         </a>
         <a href='https://experimatt.github.io/earlylunch.club/' target='_blank' rel='noopener noreferrer'
           class='hover:opacity-75'>
-          <img src='./images/earlylunch.club-green.png' alt='Early Lunch Club' class='max-w-md' />
+          <img src='./images/earlylunch.club-green.png' alt='Early Lunch Club' class='sm:max-w-full lg:max-w-md' />
         </a>
       </div>
     </div>
