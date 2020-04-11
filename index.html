@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Matt Decuir | experimatt.com </title>
+
+  <!-- import tailwind styles directly into the HTML  -->
+  <link href='https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css' rel='stylesheet'>
+
+  <!-- additional styles -->
+  <link rel='stylesheet' href='./styles/main.css'>
+</head>
+
+<body>
+
+  <section id='welcome' class='w-full h-screen flex items-center justify-center'>
+    <div class='flex flex-col items-center'>
+      <div class='pb-4'>
+        <img src='./images/matt-decuir.jpg' alt='Matt Decuir headshot' class='h-56 w-56 rounded-full shadow-md' />
+      </div>
+      <div class='font-bold text-4xl text-white shadow-md pb-4'>
+        Hi, I&#39;m Matt 👋
+      </div>
+      <a href='#about'>
+        <button class='bg-gray-900 hover:bg-black opacity-75 py-2 px-4 rounded shadow'>
+          <div class='opacity-100 text-white font-semibold'>
+            More
+          </div>
+        </button>
+      </a>
+    </div>
+    </div>
+  </section>
+
+  <section id='about' class='w-full h-56 flex items-center justify-center flex-col p-8 text-black text-3xl'>
+    <div class='pb-4'>
+      I&#39;m a software engineer who tends to solve community problems.
+    </div>
+    <div class='text-2xl'>
+      💻 🍕 🚲 ⚡️ 🚌
+    </div>
+  </section>
+
+  <section id='specialties' class='w-full h-64 bg-blue-500 flex justify-center p-8'>
+    <div class='m:w-3/4 s:w-full flex flex-col items-center justify-center text-gray-100'>
+      <div class='text-bold text-3xl pb-4'>
+        Areas of Expertise
+      </div>
+      <div class='text-lg pb-8 leading-relaxed'>
+        My specialties include
+        <div class='inline font-semibold'>software engineering</div>,
+        <div class='inline font-semibold'>launching products</div>,
+        <div class='inline font-semibold'>data analysis</div>, and
+        <div class='inline font-semibold'>community building</div>.
+      </div>
+      <a href='#portfolio'>
+        <button class='bg-gray-800 hover:bg-gray-900 opacity-75 py-2 px-4 rounded shadow text-white font-semibold'>
+          See my work
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <section id='portfolio' class='w-full h-auto flex items-center flex-col p-8'>
+    <div class='text-bold text-3xl pb-4'>
+      Portfolio
+    </div>
+    <div class='pb-8'>
+      I'm currenty focused full-time on <a href='https://invisiblenetwork.io' target='_blank' rel='noopener noreferrer'
+        class=' inline font-semibold hover:text-blue-600'>The Invisible Network</a>, but past projects include:
+      <a href='https://mplsjrdevs.com' target='_blank' rel='noopener noreferrer'
+        class='font-semibold hover:text-blue-600'>Mpls Jr Devs</a>,
+      <a href='https://omgtransit.com' target='_blank' rel='noopener noreferrer'
+        class='font-semibold hover:text-blue-600'>OMG Transit</a>, and
+      <a href='http://breakthebubble.com' target='_blank' rel='noopener noreferrer'
+        class='font-semibold hover:text-blue-600'>Break The Bubble</a>.
+    </div>
+
+    <div class='m:w-3/4 s:w-full'>
+      <div class='grid md:grid-cols-2 sm:grid-cols-1 gap-8'>
+        <a href='https://mplsjrdevs.com' target='_blank' rel='noopener noreferrer' class='hover:opacity-75'>
+          <img src='./images/mpls-jr-devs.png' alt='Mpls Jr Devs' class='max-w-md' />
+        </a>
+        <a href='https://omgtransit.com' target='_blank' rel='noopener noreferrer' class='hover:opacity-75'>
+          <img src='./images/omg-transit.jpg' alt='OMG Transit' class='max-w-md' />
+        </a>
+        <a href='http://breakthebubble.com' target='_blank' rel='noopener noreferrer' class='hover:opacity-75'>
+          <img src='./images/break-the-bubble.png' alt='Break The Bubble' class='max-w-md' />
+        </a>
+        <a href='https://experimatt.github.io/earlylunch.club/' target='_blank' rel='noopener noreferrer'
+          class='hover:opacity-75'>
+          <img src='./images/earlylunch.club-green.png' alt='Early Lunch Club' class='max-w-md' />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id='footer' class='flex justify-center text-gray-600 text-xs pb-4'>
+    Copyright &copy; <script>
+      document.write(new Date().getFullYear())
+    </script>
+  </section>
+
+</body>
+
+</html>
