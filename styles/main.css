@@ -8,3 +8,14 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#earlylunchclub {
+  background-image: url(../images/earlylunch.club-green.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#earlylunchclub:hover {
+  background-image: url(../images/earlylunch.club-red.png);
+}
