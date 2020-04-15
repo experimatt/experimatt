@@ -1,9 +1,18 @@
 {
+  "name": "Experimatt",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
   "scripts": {
-    "build": "npx tailwindcss build ./styles/main.css -o ./styles/build.css",
-    "start": "npx serve ."
+    "build": "npx tailwindcss build ./styles/index.css -o ./styles/build.css",
+    "start": "open index.html"
   },
-  "dependencies": {
+  "devDependencies": {
+    "husky": "^4.2.5",
     "tailwindcss": "^1.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn build && git add ./styles/build.css"
+    }
   }
 }
