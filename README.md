@@ -5,14 +5,21 @@ This is my personal website, which is currently live at [experimatt.com](https:/
 I tend to attempt a rewrite every year or so, but rarely finish. This version was written in April 2020, and I think it actually stuck because I kept it as simple as possible. It was written in straight html and css, along with [Tailwind](https://tailwindcss.com/) for style helpers.
 
 ## Previous attempts
-* [old-experimatt.com](https://github.com/experimatt/old-experimatt.com): The most recent version, built using the [Stylish Portfolio](https://startbootstrap.com/themes/stylish-portfolio/) bootstrap template. Started & pushed live in Jun-16, active until Apr-20 when the new version went live. ([Live version](https://experimatt.github.io/old-experimatt.com/) hosted on Github Pages, for reference)
-* [poc-experimatt-next](https://github.com/experimatt/poc-experimatt-next): An attempt using [NextJS](https://nextjs.org/) and [Tailwind](https://tailwindcss.com/). Started in Nov-19, never finished.
-* [poc-experimatt-react](https://github.com/experimatt/poc-experimatt-react): An attempt using [React](https://reactjs.org/) and [Blueprint](https://blueprintjs.com/docs/). Started in Apr-18, never finished.
+* **[old-experimatt.com](https://github.com/experimatt/old-experimatt.com)**: The most recent version, built using the [Stylish Portfolio](https://startbootstrap.com/themes/stylish-portfolio/) bootstrap template. Started & pushed live in Jun-16, active until Apr-20 when the new version went live. ([Live version](https://experimatt.github.io/old-experimatt.com/) hosted on GitHub Pages, for reference)
+* **[poc-experimatt-next](https://github.com/experimatt/poc-experimatt-next)**: An attempt using [NextJS](https://nextjs.org/) and [Tailwind](https://tailwindcss.com/). Started in Nov-19, never finished.
+* **[poc-experimatt-react](https://github.com/experimatt/poc-experimatt-react)**: An attempt using [React](https://reactjs.org/) and [Blueprint](https://blueprintjs.com/docs/). Started in Apr-18, never finished.
 
 # Deploy instructions
-This site is hosted on Github Pages, and the deployed version is just static html and CSS. The CSS is automatically re-generated via the tailwind-cli every time a commit is made.
+This site is hosted on [GitHub Pages](https://pages.github.com/), and the deployed version is just static html and CSS. The CSS is automatically re-generated via the tailwind-cli every time a commit is made.
 
 ## To deploy the app
+Assuming you've set the upstream to `master`, all you need to do is:
+
 ```
-git push master
+git push
+```
+
+If you haven't set the upstream yet, you only need to do this once:
+```
+git push -u origin master
 ```
