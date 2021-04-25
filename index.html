@@ -37,7 +37,6 @@
     gtag('config', 'UA-41375459-3');
   </script>
 </head>
-
 <body>
   <section
     id='welcome'
@@ -55,7 +54,7 @@
         👋&nbsp;&nbsp;Hi, I&#39;m Matt
       </h1>
       <div class='py-4'>
-        <a href='#about'>
+        <a href='#summary'>
           <button
             class='bg-gray-900 hover:bg-black opacity-75 py-2 px-4 rounded shadow'
           >
@@ -67,48 +66,75 @@
       </div>
     </div>
   </section>
-
   <section
-    id='about'
-    class='w-full flex items-center justify-center flex-col py-20 px-8 text-black text-2xl'
+    id='summary'
+    class='w-full flex items-center justify-center flex-col py-20 px-8 text-black'
   >
-      <div class='text-semibold leading-normal pb-4'>
+      <div class='text-semibold  text-2xl leading-normal'>
         I&#39;m a software engineer who tends to solve community problems.
       </div>
-    <div class='py-4'>💻 🍕 🚲 🚌 ⚡️</div>
-  </section>
-
-  <section
-    id='specialties'
-    class='w-full h-auto flex justify-center py-20 px-8 bg-blue-500 text-gray-100'
-  >
-    <div class='md:w-3/4 s:w-full flex flex-col items-center justify-center'>
-      <h2 class='text-bold text-4xl'>
-        Areas of Expertise
-      </h2>
-      <div class='text-lg py-8 leading-relaxed'>
-        My specialties include
-        <div class='inline font-semibold'>Ruby/Rails</div>,
-        <div class='inline font-semibold'>React</div>,
-        <div class='inline font-semibold'>Javascript</div>,
-        <div class='inline font-semibold'>helping people find jobs</div>, and
-        <div class='inline font-semibold'>data analysis</div>.
-      </div>
-      <a href='#portfolio'>
+    <div class=' text-2xl py-4'>💻 🍕 🚲 🚌 ⚡️</div>
+    <div class='pt-8'>
+      <a href='#about'>
         <button
-          class='bg-gray-800 hover:bg-gray-900 opacity-75 py-2 px-4 rounded shadow text-white font-semibold'
+          class='bg-gray-900 hover:bg-black opacity-75 py-2 px-4 rounded shadow'
         >
-          See my work
+          <div class='opacity-100 text-white font-semibold'>
+            About me
+          </div>
         </button>
       </a>
     </div>
   </section>
-
+  <section
+    id='about'
+    class='w-full h-auto flex justify-center py-16 px-8 bg-blue-500 text-gray-100'
+  >
+    <div class='md:w-3/4 s:w-full flex flex-col items-center justify-center'>
+      <h2 class='text-extrabold text-4xl pb-4'>
+        About
+      </h2>
+      <div class='text-md leading-relaxed'>
+        <div class='py-4'>
+          Originally from Seattle, I moved to Minneapolis in 2013, where my wife
+          and I currently live. Personally, I'm a pizza enthusiast, bicyclist,
+          and am car-free. I tend to talk to everybody, and am very active in
+          the community. Friends joke that after living here for 6 months, I
+          knew more people in the Twin Cities than they did, and they grew up
+          here.
+        </div>
+        <div class='py-4'>
+          Professionally, I'm a self-taught software engineer and entrepreneur.
+          I started my career as a data analyst before teaching myself how to
+          code, and my entrepreneurial pursuits include co-founding multiple
+          businesses and community orgs. I'm always thinking up new side
+          projects and business ideas, then experimenting to see if they've got
+          potential. Technically, I'm most experienced with Ruby/Rails, React,
+          and Javascript, but I also love learning new languages and frameworks.
+        </div>
+      </div>
+      <div class='py-4'>
+        I'm passionate about making the tech community more equitable and
+        inclusive, and also helping junior folks grow in their careers. I have a
+        strong bias for action and am motivated by impact - I love hearing when
+        someone uses and appreciates something that I've built.
+      </div>
+      <div class='pt-8'>
+        <a href='#portfolio'>
+          <button
+            class='bg-gray-800 hover:bg-gray-900 opacity-75 py-2 px-4 rounded shadow text-white font-semibold'
+          >
+            See my work
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
   <section
     id='portfolio'
-    class='w-full h-auto flex items-center flex-col py-20 px-8'
+    class='w-full h-auto flex items-center flex-col py-16 px-8'
   >
-    <h2 class='text-bold text-4xl'>
+    <h2 class='text-extrabold text-4xl'>
       Now
     </h2>
 
@@ -134,15 +160,12 @@
         >Invisible Network</a>.
       </div>
     </div>
-
     <div class='w-full flex justify-center p-4'>
       <div class='w-24 border-b border-gray-400'></div>
     </div>
-
-    <h3 class='text-bold text-3xl py-8'>
+    <h3 class='text-extrabold text-3xl py-8'>
       Projects
     </h3>
-
     <div class='grid md:grid-cols-2 sm:grid-cols-1 gap-8 py-8'>
       <a
         href='https://www.invisiblenetwork.com'
@@ -193,39 +216,31 @@
         />
       </a>
     </div>
-    <div class='py-4'>
-      <a href='#links'>
-        <button
-          class='bg-gray-900 hover:bg-black opacity-75 py-2 px-4 rounded shadow'
-        >
-          <div class='opacity-100 text-white font-semibold'>
-            Get in touch
-          </div>
-        </button>
-      </a>
-    </div>
   </section>
-
   <section
     id='links'
     class='w-full flex flex-col py-16 px-8 bg-blue-500 text-gray-100'
   >
-    <div class='flex items-center justify-center text-4xl py-4'>
-      <a
-        href='mailto:decuirm@gmail.com'
-        target='_blank'
-        rel='noopener noreferrer'
-        class='font-semibold hover:text-gray-400'
-      >
-       <i class="far fa-envelope pr-4"></i>
+    <div class='flex items-center justify-center py-4'>
+      <a href='mailto:decuirm@gmail.com' target='_blank'>
+        <button
+          class='bg-gray-800 hover:bg-gray-900 opacity-75 py-2 px-4 rounded shadow text-white font-semibold'
+        >
+          Email me
+        </button>
       </a>
+    </div>
+    <div class='w-full flex justify-center p-6'>
+      <div class='w-24 border-b border-gray-400'></div>
+    </div>
+    <div class='flex items-center justify-center text-4xl py-4'>
       <a
         href='https://www.linkedin.com/in/mattdecuir/'
         target='_blank'
         rel='noopener noreferrer'
         class='font-semibold hover:text-gray-400'
       >
-       <i class="fab fa-linkedin pr-4"></i>
+       <i class="fab fa-linkedin pr-6"></i>
       </a>
       <a
         href='https://github.com/experimatt'
@@ -233,7 +248,7 @@
         rel='noopener noreferrer'
         class='font-semibold hover:text-gray-400'
       >
-        <i class="fab fa-github pr-4"></i>
+        <i class="fab fa-github pr-6"></i>
       </a>
       <a
         href='https://gitlab.com/experimatt'
@@ -241,7 +256,7 @@
         rel='noopener noreferrer'
         class='font-semibold hover:text-gray-400'
       >
-        <i class="fab fa-gitlab pr-4"></i>
+        <i class="fab fa-gitlab pr-6"></i>
       </a>
       <a
         href='https://twitter.com/experimatt'
@@ -249,7 +264,7 @@
         rel='noopener noreferrer'
         class='font-semibold hover:text-gray-400'
       >
-        <i class="fab fa-twitter pr-4"></i>
+        <i class="fab fa-twitter pr-6"></i>
       </a>
     </div>
 
