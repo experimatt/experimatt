@@ -3,16 +3,12 @@
   "version": "0.0.0",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "npx tailwindcss build ./styles/index.css -o ./styles/build.css",
-    "start": "open index.html"
+    "build": "npx tailwindcss-cli@latest build ./styles/index.css -o ./styles/build.css",
+    "start": "open index.html",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "husky": "^4.2.5",
-    "tailwindcss": "^1.2.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn build && git add ./styles/build.css"
-    }
+    "husky": "^6.0.0",
+    "tailwindcss": "^2.1.2"
   }
 }
