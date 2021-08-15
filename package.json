@@ -1,5 +1,5 @@
 {
-  "name": "Experimatt",
+  "name": "experimatt",
   "version": "0.0.0",
   "license": "UNLICENSED",
   "scripts": {
@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "husky": "^6.0.0",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.2.7"
   }
 }
